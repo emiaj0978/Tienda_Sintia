@@ -68,4 +68,3 @@ El sistema cuenta con 4 tablas principales:
 ### Modelo Relacional (MR)
 ![Modelo Relacional](recursos/Modelo_Relacional.png)
  
-# Hola
