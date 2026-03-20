@@ -1,53 +1,58 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="Es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - panel de administración</title>
+    <title>Dashboard - Panel de Administración</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="dashboard.css">
-
 </head>
+
 <body>
-    <!--side bar-->
+    <!-- SIDEBAR MOBILE-CELULAR -->
     <div class="topbar">
-    <div class="title-business">
-        <span>pepito sac</span>
+        <div class="title-business">
+            <span>pepitos </span>
+        </div>
+        <div class="btn-menu">
+            <button class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
     </div>
-    <div class="btn-menu">
-        <button class="hamburguesa">
-            <i class="fa-solid fa-bars"></i>
-        </button>
-    </div>
-    </div>
-    <!--overlay, junto con el navbar-->
+    <!-- OVERLAY JUNTO CON EL NAVBAR-->
     <div class="overlay"></div>
-    <!--sidebar es el menu- la barra lateral izquierda-->
+    <!-- SIBERBAR DESKTOP: es el menu / la barra lateral IZQ...-->
     <aside class="sidebar">
-        <div class="sidebar-logo">dashboard</div>
+        <div class="sidebar-logo">Dashboard</div>
         <ul>
-            <li><a href="#" class="activo" id="activo">
-                <i class="fa-solid fa-house"></i>
-                <spam>Inicio</spam></a></li>
-
-            <li><a href="#"class="activo" id="activo">
-                <i class="fa-solid fa-folder-open"></i>
-                <spam>Reportes</spam></a></li>
+            <li>
+                <a href="#" class="activo" id="activo">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Inicio</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa-solid fa-folder-open"></i>
+                    <span>Reportes</span>
+                </a>
+            </li>
         </ul>
-
     </aside>
-
-    <!--contenido principal-->
-<main>
-    <nav class="breadcrumb">
-        <span>Inicio</span>
-        <i class="fa-solid fa-chevron-right"></i>
-        <span>Reportes</span>
-    </nav>
-    <div class="main-content">
-        <p>Aqui vamos a escibir el contenido</p>
-    </div>
-</main>
-
+    <!-- CONTENIDO PRINCIAL (ctrl+})-->
+    <main>
+        <!-- navigation -->
+        <nav class="breadcrumb">
+            <span>Inicio</span>
+            <i class="fa-solid fa-chevron-right"></i>
+            <span>Reportes</span>
+        </nav>
+        <div class="main-content">
+            <p>AQUI VAMOS A ESCRIBIR EL CONTENIDO</p>
+        </div>
+    </main>
 </body>
-</html> 
+
+</html>
