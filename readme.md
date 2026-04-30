@@ -94,23 +94,6 @@ Solucion tecnologica: Desarrollar un sistema web con Java Spring Boot y MySQL qu
 
 ---
 
-## Estructura del proyecto
-```
-JavaWeb-TiendaSintia/
-├── backend/ → Spring Boot (Java)
-│ ├── src/
-│ ├── pom.xml
-│ └── ...
-├── frontend/ → HTML, CSS, JS
-│ ├── css/
-│ ├── js/
-│ └── index.html
-
-text
-```
-
----
-
 ### DIAGRAMA DE FIGMA UI/UX
 ![FIGMA](https://www.figma.com/design/BhCK6tHBD2xM2IzBFCgQyl/Sin-t%C3%ADtulo?node-id=0-1&p=f&t=biuAk1qIKtQNHJ7L-0)
 
