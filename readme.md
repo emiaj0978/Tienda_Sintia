@@ -1,10 +1,10 @@
-# 🏪 Proyecto: Sistema de Gestión para Bodega Sintia
+# Tienda Sintia
 
 ---
 
 ## 1. Descripción del negocio
 
-La **Bodega Sintia** es un negocio dedicado a la venta de productos de primera necesidad como alimentos, bebidas, productos de limpieza y artículos básicos del hogar.
+La **Tienda Sintia** es un negocio dedicado a la venta de productos de primera necesidad como alimentos, bebidas, productos de limpieza y artículos básicos del hogar.
 
 Su objetivo es brindar atención rápida y eficiente a los clientes del barrio, ofreciendo productos accesibles y de consumo diario.
 
@@ -12,7 +12,7 @@ Su objetivo es brindar atención rápida y eficiente a los clientes del barrio, 
 
 ## 2. Identificar el problema y solución
 
-### ❌ Problema
+### Problema
 
 Actualmente la bodega presenta los siguientes problemas:
 
@@ -24,7 +24,7 @@ Actualmente la bodega presenta los siguientes problemas:
 
 ---
 
-### ✅ Solución
+### Solución
 
 Se propone desarrollar un **sistema de gestión** que permita:
 
@@ -38,7 +38,7 @@ Se propone desarrollar un **sistema de gestión** que permita:
 
 ## 3. Preanálisis
 
-### 📌 Necesidades
+### Necesidades
 
 - Registro de productos.
 - Control de inventario.
@@ -48,7 +48,7 @@ Se propone desarrollar un **sistema de gestión** que permita:
 
 ---
 
-### 📊 Estudio de viabilidad
+### Estudio de viabilidad
 
 - **Técnica:** Desarrollo posible con Java y MySQL.
 - **Económica:** Bajo costo (solo desarrollo del sistema).
@@ -56,7 +56,7 @@ Se propone desarrollar un **sistema de gestión** que permita:
 
 ---
 
-### 🎯 Alcance del sistema
+### Alcance del sistema
 
 El sistema permitirá:
 
@@ -73,9 +73,9 @@ El sistema permitirá:
 
 ## 4. Análisis
 
-### 📌 Definición de requisitos
+### Definición de requisitos
 
-#### 🔹 Requisitos funcionales
+#### Requisitos funcionales
 
 - Registrar productos.
 - Editar productos.
@@ -86,7 +86,7 @@ El sistema permitirá:
 
 ---
 
-#### 🔹 Requisitos no funcionales
+#### Requisitos no funcionales
 
 - Interfaz sencilla.
 - Sistema rápido.
@@ -95,7 +95,7 @@ El sistema permitirá:
 
 ---
 
-### 📊 Análisis de requisitos
+### Análisis de requisitos
 
 El sistema debe:
 
@@ -106,29 +106,10 @@ El sistema debe:
 
 ---
 
-## 5. Imágenes del problema (SIN IA)
-
-> 📸 Agregar imágenes reales como:
-
-- Desorden en productos.
-- Registros manuales (cuadernos).
-- Falta de control de stock.
+## 5. Imágenes del problema
 
 ---
 
-## 6. Imágenes del negocio (SIN IA)
-
-> 📸 Agregar imágenes reales como:
-
-- Vista de la bodega.
-- Estantes con productos.
-- Área de atención.
-- Productos disponibles.
-
----
-
-## 📌 Conclusión
-
-El desarrollo de este sistema permitirá mejorar la organización de la bodega, optimizar el control de inventario y facilitar el registro de ventas, reduciendo errores y aumentando la eficiencia del negocio.
+## 6. Imágenes del negocio
 
 ---
