@@ -264,10 +264,10 @@ El sistema debe:
 
 ---
 
-## 5. Imágenes del problema
+## Imágenes del problema
 
 ---
 
-## 6. Imágenes del negocio
+## Imágenes del negocio
 
 ---
