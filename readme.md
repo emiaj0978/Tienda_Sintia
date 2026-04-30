@@ -32,7 +32,6 @@ Se propone desarrollar un **sistema de gestión** que permita:
 - Registrar automáticamente las ventas.
 - Gestionar productos de forma organizada.
 - Obtener reportes de ventas.
-- Reducir errores humanos.
 
 ---
 
