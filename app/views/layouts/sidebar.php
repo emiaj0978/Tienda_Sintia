@@ -33,28 +33,28 @@
         <li>
             <a href="<?php echo BASE_URL; ?>/empleados"
                 class="<?php echo $rutaActual === 'empleados' ? 'activo' : ''; ?>"> 
-                <i class="fa-solid fa-clipboard-list"></i>
-                <span>Reportes</span>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>Producto</span>
             </a>
         </li>
         <li>
             <a href="<?php echo BASE_URL; ?>/categorias"
                 class="<?php echo $rutaActual === 'categorias' ? 'activo' : ''; ?>"> 
-                <i class="fa-solid fa-clipboard-list"></i>
+                <i class="fa-solid fa-tags"></i>
                 <span>Categoria</span>
             </a>
         </li>
         <li>
             <a href="<?php echo BASE_URL; ?>/entradas"
                 class="<?php echo $rutaActual === 'entradas' ? 'activo' : ''; ?>"> 
-                <i class="fa-solid fa-clipboard-list"></i>
+                <i class="fa-solid fa-right-to-bracket"></i>
                 <span>Entrada</span>
             </a>
         </li>
         <li>
             <a href="<?php echo BASE_URL; ?>/salidas"
                 class="<?php echo $rutaActual === 'salidas' ? 'activo' : ''; ?>"> 
-                <i class="fa-solid fa-clipboard-list"></i>
+                <i class="fa-solid fa-truck"></i>
                 <span>salida</span>
             </a>
         </li>
