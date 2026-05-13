@@ -38,6 +38,20 @@
             </a>
         </li>
         <li>
+            <a href="<?php echo BASE_URL; ?>/categorias"
+                class="<?php echo $rutaActual === 'categoria' ? 'activo' : ''; ?>"> 
+                <i class="fa-solid fa-clipboard-list"></i>
+                <span>Categoria</span>
+            </a>
+        </li>
+        <li>
+            <a href="<?php echo BASE_URL; ?>/entradas"
+                class="<?php echo $rutaActual === 'entrada' ? 'activo' : ''; ?>"> 
+                <i class="fa-solid fa-clipboard-list"></i>
+                <span>Entrada</span>
+            </a>
+        </li>
+        <li>
             <a href="<?php echo BASE_URL; ?>/salidas"
                 class="<?php echo $rutaActual === 'salidas' ? 'activo' : ''; ?>"> 
                 <i class="fa-solid fa-clipboard-list"></i>
