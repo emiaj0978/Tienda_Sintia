@@ -33,26 +33,20 @@
                 <thead class="table-dark">
                     <tr>
                         <th>ID</th>
-                        <th>Nombre</th>
-                        <th>Apellido</th>
-                        <th>DNI</th>
-                        <th>Celular</th>
-                        <th>Correo</th>
-                        <th>Cargo</th>
-                        <th>Fecha de Registro</th>
+                        <th>Fecha</th>
+                        <th>Cantidad</th>
+                        <th>Producto</th>
+                        
                     </tr>
                 </thead>
                 <tbody>
                     <?php foreach($empleados as $empleaditos): ?>
                         <tr>
-                            <td><?php echo $empleaditos['id_empleado']?></td>
-                            <td><?php echo $empleaditos['cantidad']?></td>
-                            <td><?php echo htmlspecialchars($empleaditos['apellido'])?></td>
-                            <td><?php echo htmlspecialchars($empleaditos['dni'])?></td>
-                            <td><?php echo htmlspecialchars($empleaditos['celular'])?></td>
-                            <td><?php echo htmlspecialchars($empleaditos['correo'])?></td>
-                            <td><?php echo htmlspecialchars($empleaditos['id_cargo'])?></td>
-                            <td><?php echo htmlspecialchars($empleaditos['fecha_registro'])?></td>
+                            <td><?php echo $empleaditos['IDentrada']?></td>
+                            <td><?php echo $empleaditos['fecha']?></td>
+                            <td><?php echo htmlspecialchars($empleaditos['cantidad'])?></td>
+                            <td><?php echo htmlspecialchars($empleaditos['producto'])?></td>
+                            
                         </tr>
                     <?php endforeach; ?>
                 </tbody>

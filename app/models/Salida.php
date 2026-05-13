@@ -18,7 +18,14 @@ class Salida{
     //public function getAll():array
     public function obtenerEmpleados():array {
         // variable $sql para almacenar
-        $sql = "SELECT * FROM salida";
+        $sql = "SELECT 
+                s.IDsalida,
+                s.fecha,
+                s.cantidad,
+                p.nombre AS producto
+                FROM salida s
+                INNER JOIN producto p
+                ON s.IDproducto = p.IDproducto";
         // statement = declaración
         $stmt = $this->db->prepare($sql);
         // Ejecutamos la declaración ($stmt)

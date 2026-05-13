@@ -39,14 +39,14 @@
         </li>
         <li>
             <a href="<?php echo BASE_URL; ?>/categorias"
-                class="<?php echo $rutaActual === 'categoria' ? 'activo' : ''; ?>"> 
+                class="<?php echo $rutaActual === 'categorias' ? 'activo' : ''; ?>"> 
                 <i class="fa-solid fa-clipboard-list"></i>
                 <span>Categoria</span>
             </a>
         </li>
         <li>
             <a href="<?php echo BASE_URL; ?>/entradas"
-                class="<?php echo $rutaActual === 'entrada' ? 'activo' : ''; ?>"> 
+                class="<?php echo $rutaActual === 'entradas' ? 'activo' : ''; ?>"> 
                 <i class="fa-solid fa-clipboard-list"></i>
                 <span>Entrada</span>
             </a>

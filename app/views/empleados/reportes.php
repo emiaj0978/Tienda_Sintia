@@ -33,13 +33,13 @@
                 <thead class="table-dark">
                     <tr>
                         <th>ID</th>
-                        <th>Nombre</th>
-                        <th>Apellido</th>
-                        <th>DNI</th>
-                        <th>Celular</th>
-                        <th>Correo</th>
-                        <th>Cargo</th>
-                        <th>Fecha de Registro</th>
+                        <th>Producto</th>
+                        <th>Descripcion</th>
+                        <th>Compra</th>
+                        <th>Venta</th>
+                        <th>Stock</th>
+                        <th>fecha de vencimiento</th>
+                        <th>Categoria</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -48,11 +48,11 @@
                             <td><?php echo $empleaditos['IDproducto']?></td>
                             <td><?php echo $empleaditos['nombre']?></td>
                             <td><?php echo htmlspecialchars($empleaditos['descripcion'])?></td>
-                            <td><?php echo htmlspecialchars($empleaditos['dni'])?></td>
-                            <td><?php echo htmlspecialchars($empleaditos['celular'])?></td>
-                            <td><?php echo htmlspecialchars($empleaditos['correo'])?></td>
-                            <td><?php echo htmlspecialchars($empleaditos['id_cargo'])?></td>
-                            <td><?php echo htmlspecialchars($empleaditos['fecha_registro'])?></td>
+                            <td><?php echo htmlspecialchars($empleaditos['precio_compra'])?></td>
+                            <td><?php echo htmlspecialchars($empleaditos['precio_venta'])?></td>
+                            <td><?php echo htmlspecialchars($empleaditos['stock_actual'])?></td>
+                            <td><?php echo htmlspecialchars($empleaditos['fecha_vencimiento'])?></td>
+                            <td><?php echo htmlspecialchars($empleaditos['IDcategoria'])?></td>
                         </tr>
                     <?php endforeach; ?>
                 </tbody>
