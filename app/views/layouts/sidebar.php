@@ -37,6 +37,13 @@
                 <span>Reportes</span>
             </a>
         </li>
+        <li>
+            <a href="<?php echo BASE_URL; ?>/salidas"
+                class="<?php echo $rutaActual === 'salidas' ? 'activo' : ''; ?>"> 
+                <i class="fa-solid fa-clipboard-list"></i>
+                <span>salida</span>
+            </a>
+        </li>
         <li class="nav-logout">
             <a href="<?php echo BASE_URL; ?>/logout" id="btn-logout">
                 <i class="fa-solid fa-right-from-bracket"></i>

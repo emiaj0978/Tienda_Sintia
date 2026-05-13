@@ -2,7 +2,7 @@
 //Llamamos a la conexión de la base de datos.
 require_once __DIR__ . '/../core/Database.php';
 //Creamos el modelo o clase llamada Empleado (SINGULAR).
-class Empleado{
+class Salida{
     // La propiedad $db guardará la conexión PDO.
     // Le decimos que solo puede ser de tipo PDO (tipado estricto).
     // modificador de acceso("private") significa que solo se puede usar dentro de esta clase.
@@ -18,7 +18,7 @@ class Empleado{
     //public function getAll():array
     public function obtenerEmpleados():array {
         // variable $sql para almacenar
-        $sql = "SELECT * FROM producto";
+        $sql = "SELECT * FROM salida";
         // statement = declaración
         $stmt = $this->db->prepare($sql);
         // Ejecutamos la declaración ($stmt)
@@ -27,4 +27,3 @@ class Empleado{
         return $stmt->fetchAll();
     }
 }
-
