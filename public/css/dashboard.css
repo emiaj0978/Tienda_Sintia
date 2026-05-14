@@ -7,7 +7,7 @@
 }
 
 :root {
-    --bg: #f5f5f5;
+    --bg: #979696;
     --text: #1a1a1a;
     --sidebar-w: 220px;
     --sidebar-bg: #ffffff;
@@ -81,7 +81,7 @@ body {
     left: -100%;
     width: var(--sidebar-w);
     height: 100vh;
-    background-color: var(--sidebar-bg);
+    background-color: #3e7568;
     border-right: 1px solid var(--sidebar-line);
     display: flex;
     flex-direction: column;
@@ -140,7 +140,7 @@ body {
 }
 
 .sidebar ul li a.activo {
-    background-color: #eeeeee;
+    background-color: #979696;
     color: var(--text);
     font-weight: 600;
 }
