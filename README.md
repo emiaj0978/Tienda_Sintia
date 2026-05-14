@@ -135,6 +135,12 @@ Un producto puede tener muchas salidas, pero una salida pertenece a un solo prod
 CREATE DATABASE tienda_sintia;
 USE tienda_sintia;
 
+create table usuario(
+id_usuario int auto_increment primary key,
+roles enum('admin', 'superadmin') default 'admin',
+nombre_usuario varchar (150) not null,
+clave varchar(250) not null
+)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 CREATE TABLE Categoria (
     IDcategoria INT AUTO_INCREMENT PRIMARY KEY,
@@ -248,6 +254,9 @@ INSERT INTO Salida (fecha, cantidad, IDproducto) VALUES
 ('2026-03-18', 5, 17),  
 ('2026-03-18', 8, 18), 
 ('2026-03-19', 3, 19); 
+
+INSERT INTO usuario (id_usuario, roles, nombre_usuario, clave) VALUES
+('1', 'admin', 'emi', 123);
 
 ```
 
