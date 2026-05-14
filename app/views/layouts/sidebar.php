@@ -31,8 +31,8 @@
             </a>
         </li>
         <li>
-            <a href="<?php echo BASE_URL; ?>/empleados"
-                class="<?php echo $rutaActual === 'empleados' ? 'activo' : ''; ?>"> 
+            <a href="<?php echo BASE_URL; ?>/productos"
+                class="<?php echo $rutaActual === 'productos' ? 'activo' : ''; ?>"> 
                 <i class="fa-solid fa-cart-shopping"></i>
                 <span>Producto</span>
             </a>

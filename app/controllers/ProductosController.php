@@ -1,8 +1,8 @@
 <?php
 require_once __DIR__ . '/../core/Controller.php';
-require_once __DIR__ . '/../models/Empleado.php';
+require_once __DIR__ . '/../models/Producto.php';
 // Controlador para el módulo de empleados.
-class EmpleadosController extends Controller {
+class ProductosController extends Controller {
     // Método por defecto. 
     public function index(): void {
         //Mientras que no inicio sesión - que le envie al login
@@ -12,9 +12,9 @@ class EmpleadosController extends Controller {
         } 
 
         //Instanciamos el objeto de la clase EMPLEADO;
-        $modelo = new Empleado();
+        $modelo = new Producto();
         $variable_empleados = $modelo->obtenerEmpleados();
-        $this->view('empleados/reportes',[
+        $this->view('productos/producto',[
             'usuario' => $_SESSION['usuario'],
             'empleados' =>$variable_empleados
         ]);
