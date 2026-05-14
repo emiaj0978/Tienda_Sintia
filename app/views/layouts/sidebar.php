@@ -31,33 +31,52 @@
             </a>
         </li>
         <li>
-            <a href="<?php echo BASE_URL; ?>/productos"
-                class="<?php echo $rutaActual === 'productos' ? 'activo' : ''; ?>"> 
-                <i class="fa-solid fa-cart-shopping"></i>
-                <span>Producto</span>
-            </a>
-        </li>
-        <li>
-            <a href="<?php echo BASE_URL; ?>/categorias"
-                class="<?php echo $rutaActual === 'categorias' ? 'activo' : ''; ?>"> 
-                <i class="fa-solid fa-tags"></i>
-                <span>Categoria</span>
-            </a>
-        </li>
-        <li>
-            <a href="<?php echo BASE_URL; ?>/entradas"
-                class="<?php echo $rutaActual === 'entradas' ? 'activo' : ''; ?>"> 
-                <i class="fa-solid fa-right-to-bracket"></i>
-                <span>Entrada</span>
-            </a>
-        </li>
-        <li>
-            <a href="<?php echo BASE_URL; ?>/salidas"
-                class="<?php echo $rutaActual === 'salidas' ? 'activo' : ''; ?>"> 
-                <i class="fa-solid fa-truck"></i>
-                <span>salida</span>
-            </a>
-        </li>
+
+
+    <a class="d-flex justify-content-between align-items-center"
+       data-bs-toggle="collapse"
+       href="#menuInventario"
+       role="button"
+       aria-expanded="false">
+        <div>
+            <i class="fa-solid fa-box"></i>
+            <span>Inventario</span>
+        </div>
+        <i class="fa-solid fa-chevron-down"></i>
+    </a>
+    <div class="collapse" id="menuInventario">
+        <ul class="list-unstyled ps-4 mt-2">
+            <li>
+                <a href="<?php echo BASE_URL; ?>/productos"
+                    class="<?php echo $rutaActual === 'productos' ? 'activo' : ''; ?>">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>Producto</span>
+                </a>
+            </li>
+            <li>
+                <a href="<?php echo BASE_URL; ?>/categorias"
+                    class="<?php echo $rutaActual === 'categorias' ? 'activo' : ''; ?>">
+                    <i class="fa-solid fa-tags"></i>
+                    <span>Categoria</span>
+                </a>
+            </li>
+            <li>
+                <a href="<?php echo BASE_URL; ?>/entradas"
+                    class="<?php echo $rutaActual === 'entradas' ? 'activo' : ''; ?>">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                    <span>Entrada</span>
+                </a>
+            </li>
+            <li>
+                <a href="<?php echo BASE_URL; ?>/salidas"
+                    class="<?php echo $rutaActual === 'salidas' ? 'activo' : ''; ?>">
+                    <i class="fa-solid fa-truck"></i>
+                    <span>Salida</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</li>
         <li class="nav-logout">
             <a href="<?php echo BASE_URL; ?>/logout" id="btn-logout">
                 <i class="fa-solid fa-right-from-bracket"></i>
