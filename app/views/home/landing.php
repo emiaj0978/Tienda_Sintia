@@ -6,6 +6,8 @@
     <title>Sistema de Asistencia</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Los assets usan rutas absolutas con BASE_URL para que funcionen sin importar la URL actual -->
     <link rel="stylesheet" href="<?php echo BASE_URL; ?>/public/css/landing.css">
 </head>
@@ -20,12 +22,12 @@
     <section class="stage">
 
         <video class="hero-video" autoplay muted loop playsinline>
-            <source src="<?php echo BASE_URL; ?>/public/video/donde.mp4" type="video/mp4">
+            <source src="<?php echo BASE_URL; ?>/public/video/tienda.mp4" type="video/mp4">
         </video>
 
         <!-- Navbar -->
         <nav class="navbar" id="navbar">
-            <a class="brand" href="#">EMPRESA</a>
+            <a class="brand" href="#">Tienda Sintia</a>
 
             <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">
                 <i class="bi bi-list"></i>
@@ -34,7 +36,7 @@
 
         <!-- Contenido hero -->
         <div class="hero-content">
-            <button class="cta-btn demo-trigger" id="verDemo">Ver demo</button>
+            <button class="cta-btn demo-trigger" id="verDemo">Ver Productos</button>
         </div>
 
         <!-- Scroll indicator -->
@@ -68,8 +70,83 @@
 
     </section>
 
+
+         <!-- 3 tarjetas -->
+
+    <div class="card-group">
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+
+
+     <!-- 4 contenedores -->
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
     <!-- Footer -->
     <?php include __DIR__ . '/../layouts/footer.php'; ?>
     <script src="<?php echo BASE_URL; ?>/public/js/landing.js"></script>
-</body>
+    </body>
 </html>
