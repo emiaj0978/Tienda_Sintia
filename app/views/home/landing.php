@@ -71,74 +71,259 @@
     </section>
 
 
-         <!-- 3 tarjetas -->
+       <div class="container py-5">
+    <!-- Primera fila -->
+    <div class="row g-4" style="margin-bottom: 100px;">
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow-sm">
+                <img src="img/producto1.png" class="card-img-top" alt="Producto">
+                <div class="card-body">
+                    <h3 class="card-title">
+                        Card title
+                    </h3>
+                    <p class="card-text">
+                        This is a wider card with supporting text below as a natural lead-in to additional content.
+                    </p>
+                    <small class="text-secondary">
+                        Last updated 3 mins ago
+                    </small>
+                </div>
+            </div>
+        </div>
 
-    <div class="card-group">
-  <div class="card">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow-sm">
+                <img src="img/producto2.png" class="card-img-top" alt="Producto">
+                <div class="card-body">
+                    <h3 class="card-title">
+                        Card title
+                    </h3>
+                    <p class="card-text">
+                        This card has supporting text below as a natural lead-in.
+                    </p>
+                    <small class="text-secondary">
+                        Last updated 3 mins ago
+                    </small>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow-sm">
+                <img src="img/producto3.png" class="card-img-top" alt="Producto">
+                <div class="card-body">
+                    <h3 class="card-title">
+                        Card title
+                    </h3>
+                    <p class="card-text">
+                        This is a wider card with supporting text below.
+                    </p>
+                    <small class="text-secondary">
+                        Last updated 3 mins ago
+                    </small>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="card">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+
+
+
+    <!-- Segunda fila -->
+    <div class="row g-3">
+        <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+                <img src="img/producto4.png" class="card-img-top" alt="Producto">
+                <div class="card-body">
+                    <h3 class="card-title">
+                        Card title
+                    </h3>
+                    <p class="card-text">
+                        This is a longer card with supporting text below.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+                <img src="img/producto5.png" class="card-img-top" alt="Producto">
+                <div class="card-body">
+                    <h3 class="card-title">
+                        Card title
+                    </h3>
+                    <p class="card-text">
+                        This is a longer card with supporting text below.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+                <img src="img/producto6.png" class="card-img-top" alt="Producto">
+                <div class="card-body">
+                    <h3 class="card-title">
+                        Card title
+                    </h3>
+                    <p class="card-text">
+                        This is a longer card with supporting text below.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+                <img src="img/producto7.png" class="card-img-top" alt="Producto">
+                <div class="card-body">
+                    <h3 class="card-title">
+                        Card title
+                    </h3>
+                    <p class="card-text">
+                        This is a longer card with supporting text below.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="card">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
 </div>
 
 
-     <!-- 4 contenedores -->
-    <div class="row row-cols-1 row-cols-md-2 g-4">
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
+<div class="container py-5">
+    <div class="row g-1">
+
+        <!-- Producto -->
+        <div class="col-lg-2 col-md-4 col-63">
+            <div class="card text-center h-100 border-0 shadow-sm">
+                <img src="img/tv1.png" class="card-img-top p-3" alt="TV">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        JVC Televisor 43" QLED
+                    </h5>
+                    <div class="fs-3 text-danger fw-bold">
+                        S/599
+                        <span class="fs-6 text-dark">UN</span>
+                        <span class="badge bg-danger">
+                            -29%
+                        </span>
+                    </div>
+                    <p class="text-secondary text-decoration-line-through fs-5">
+                        S/649
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Producto -->
+        <div class="col-lg-2 col-md-4 col-6">
+            <div class="card text-center h-100 border-0 shadow-sm">
+                <img src="img/laptop.png" class="card-img-top p-3" alt="Laptop">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Laptop HP Ci5 512GB
+                    </h5>
+                    <div class="fs-3 text-danger fw-bold">
+                        S/2,099
+                        <span class="fs-6 text-dark">UN</span>
+                        <span class="badge bg-danger">
+                            -22%
+                        </span>
+                    </div>
+                    <p class="text-secondary text-decoration-line-through fs-5">
+                        S/2,149
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Producto -->
+        <div class="col-lg-2 col-md-4 col-6">
+            <div class="card text-center h-100 border-0 shadow-sm">
+                <img src="img/celular.png" class="card-img-top p-3" alt="Celular">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Motorola G77
+                    </h5>
+                    <div class="fs-3 text-danger fw-bold">
+                        S/799
+                        <span class="fs-6 text-dark">UN</span>
+                        <span class="badge bg-danger">
+                            -20%
+                        </span>
+                    </div>
+                    <p class="text-secondary text-decoration-line-through fs-5">
+                        S/849
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Producto -->
+        <div class="col-lg-2 col-md-4 col-6">
+            <div class="card text-center h-100 border-0 shadow-sm">
+                <img src="img/celular.png" class="card-img-top p-3" alt="Celular">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Motorola G77
+                    </h5>
+                    <div class="fs-3 text-danger fw-bold">
+                        S/799
+                        <span class="fs-6 text-dark">UN</span>
+                        <span class="badge bg-danger">
+                            -20%
+                        </span>
+                    </div>
+                    <p class="text-secondary text-decoration-line-through fs-5">
+                        S/849
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Producto -->
+        <div class="col-lg-2 col-md-4 col-6">
+            <div class="card text-center h-100 border-0 shadow-sm">
+                <img src="img/celular.png" class="card-img-top p-3" alt="Celular">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Motorola G77
+                    </h5>
+                    <div class="fs-3 text-danger fw-bold">
+                        S/799
+                        <span class="fs-6 text-dark">UN</span>
+                        <span class="badge bg-danger">
+                            -20%
+                        </span>
+                    </div>
+                    <p class="text-secondary text-decoration-line-through fs-5">
+                        S/849
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Producto -->
+        <div class="col-lg-2 col-md-4 col-6">
+            <div class="card text-center h-100 border-0 shadow-sm">
+                <img src="img/celular.png" class="card-img-top p-3" alt="Celular">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Motorola G77
+                    </h5>
+                    <div class="fs-3 text-danger fw-bold">
+                        S/799
+                        <span class="fs-6 text-dark">UN</span>
+                        <span class="badge bg-danger">
+                            -20%
+                        </span>
+                    </div>
+                    <p class="text-secondary text-decoration-line-through fs-5">
+                        S/849
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-      </div>
-    </div>
-  </div>
 </div>
 
 

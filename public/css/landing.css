@@ -577,7 +577,7 @@ body {
 
 /* ── FOOTER ── */
 .footer {
-    background: #fff;
+    background: #17456c;
     border-top: 1px solid #e5e5e5;
     padding: 28px clamp(20px, 6vw, 80px);
     display: flex;
@@ -591,11 +591,11 @@ body {
     font-weight: 900;
     font-size: 14px;
     letter-spacing: 0.06em;
-    color: #000;
+    color: #ffffff;
 }
 
 .footer-copy {
     font-size: 12px;
-    color: #000;
+    color: #ffffff;
     letter-spacing: 0.02em;
 }
